@@ -23,4 +23,4 @@ function getSumOfPossiblities(i, arr, cache) {
 	return sum;
 }
 
-console.log(StairCase(5,[1,3]));
+console.log(StairCase(3,[1,3]));
