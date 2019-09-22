@@ -21,4 +21,4 @@ def longest_consecutive(nums):
 		return max_len
 		
 		
-print(longest_consecutive([110,112,1,6,3,4,7,5,2,9,11,10]))
+print(longest_consecutive([110,112,1,6,3,4,7,5,2,9,11,10,8]))

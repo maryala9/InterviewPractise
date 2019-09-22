@@ -37,4 +37,4 @@ function CombinationSum(array, target) {
 }
 
 
-console.log(CombinationSum([1,3,2,6], 6));
+console.log(CombinationSum([1,3,2,6,3], 6));

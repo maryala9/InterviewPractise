@@ -1,4 +1,5 @@
 import collections
+#23280666065765
 class PointNode:
 	def __init__(self, point, val):
 		self.point = point
@@ -31,7 +32,7 @@ def shortestDistance(maze, start, destination):
 	q = collections.deque()
 	q.append(src)
 
-	while len(q):
+	while q:
 		curr = q.popleft()
 		point = curr.point
 		if point[0] == destination[0] and point[1] == destination[1]:
@@ -42,7 +43,7 @@ def shortestDistance(maze, start, destination):
 			column = point[1] + cols[i]
 			check_tuple = tuple([row, column])
 			if isValid(row, column):
-				if maze[row][column] and not check_tuple in visited:
+				if maze[row][column] and check_tuple not in visited:
 					visited[check_tuple] = True
 					node = PointNode([row,column], curr.dist + 1)
 					q.append(node)
