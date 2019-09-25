@@ -4,6 +4,8 @@ Love Python!! As I started coding in Python every now and then and in a period o
 
 I have also included comments as I code. 
 
+Questions were from Leetcode & some HackerRank
+
 Run the program:
 
 ```python3 filename```
