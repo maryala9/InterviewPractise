@@ -28,6 +28,8 @@ def mergeSort(items, low, high, count):
 	
 	if low >= high:
 		return
+
+
 	
 	mid = low + (high - low)//2
 	
@@ -66,6 +68,3 @@ def merge(items, low, lowEnd, high, highEnd, count):
 	while highPtr <= highEnd:
 		sorted_result.append(items[highPtr])
 		highPtr += 1
-
-	
-	
