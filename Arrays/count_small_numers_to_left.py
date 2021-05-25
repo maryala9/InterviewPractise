@@ -29,8 +29,6 @@ def mergeSort(items, low, high, count):
 	if low >= high:
 		return
 
-
-	
 	mid = low + (high - low)//2
 	
 	mergeSort(items, low, mid, count)
